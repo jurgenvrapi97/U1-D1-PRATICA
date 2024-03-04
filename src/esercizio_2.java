@@ -11,6 +11,7 @@ public class esercizio_2 {
         String terza = scanner.nextLine();
 
         combina(prima, seconda, terza);
+        scanner.close();
     }
 
     public static void combina(String uno, String due, String tre){
